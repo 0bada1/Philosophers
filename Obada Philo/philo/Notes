@@ -1,5 +1,0 @@
-**NOTES ABOUT THREADS**
-- Threads only execute the function, so a line after pthread_create would not execute from the thread.
-- Data races are when 2 threads try to read and change the same variable at the same time.
-- Using mutex locks helps solve data races
--
